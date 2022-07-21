@@ -19,7 +19,7 @@ const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
 
-var inputDecoration = InputDecoration(
+InputDecoration inputDecoration = InputDecoration(
   icon: Icon(
     Icons.location_city,
     color: Colors.white,

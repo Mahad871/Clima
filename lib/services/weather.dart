@@ -8,6 +8,14 @@ double? longitude;
 bool isfirst = true;
 
 class WeatherModel {
+  Future getCityWeather(String cityName) async {
+    String url =
+        'https://api.openweathermap.org/data/2.5/weather?q=$cityName&appid=$appkey&units=metric';
+    NetworkHelper networkHelper = NetworkHelper(url);
+    var weatherData = await networkHelper.getData();
+    return weatherData;
+  }
+
   Future<dynamic> getWeatherData() async {
     Location position = Location();
     await position.getCurrentPosition();
