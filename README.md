@@ -1,2 +1,2 @@
 # clima
-![Alt text](http://Clima/Screenshots/clima1.png "Optional title")
+![Alt text](/Screenshots/clima1.png?raw=true "Optional Title")
