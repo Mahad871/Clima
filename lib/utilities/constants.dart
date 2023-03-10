@@ -8,8 +8,6 @@ const kTempTextStyle = TextStyle(
 const kMessageTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
   fontSize: 60.0,
-  
-    
 );
 
 const kButtonTextStyle =
@@ -17,6 +15,9 @@ const kButtonTextStyle =
 
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
+);
+const kConditionTextStyle1 = TextStyle(
+  fontSize: 60.0,
 );
 
 InputDecoration inputDecoration = InputDecoration(

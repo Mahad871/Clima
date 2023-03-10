@@ -115,7 +115,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       ),
                       Text(
                         weatherIcon,
-                        style: kConditionTextStyle,
+                        style: kConditionTextStyle1,
                       ),
                     ],
                   ),
